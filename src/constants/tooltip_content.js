@@ -1,0 +1,15 @@
+export const TOOLTIP_CONTENT = [
+  ['Argentina - ', 'N/A Only BL'],
+  ['Chile - ', 'DUS (Single Export Document)'],
+  ['Colombia - ', 'DEX (Export Declaration)'],
+  ['Costa Rica - ', 'DUA (Single Customs Declaration)'],
+  ['Costa Rica - ', 'DUCA (Central American Single Declaration)'],
+  ['El Salvador - ', 'DUCA (Central American Single Declaration)'],
+  ['Guatemala - ', 'DUCA (Central American Single Declaration)'],
+  ['Guatemala - ', 'FYDUCA (Invoice and Single Declaration Central America)'],
+  ['Honduras - ', 'FYDUCA (Invoice and Single Declaration Central America)'],
+  ['Mexico - ', 'Export document number'],
+  ['Nicaragua - ', 'DUCA (Central American Single Declaration)'],
+  ['Peru - ', 'DUA (Single Customs Declaration)'],
+  ['Peru - ', 'DAM (Customs Declaration of Goods)'],
+];

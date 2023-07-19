@@ -1,0 +1,27 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "A POC built to demontrate popup options",
+  "main": "script.js",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "format": "prettier . --write",
+    "build": "webpack",
+    "serve": "webpack-dev-server",
+    "lint": "eslint . ",
+    "e2e": "cypress open"
+  },
+  "author": "William Carpenter-Frank",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "lorem-ipsum": "^2.0.8"
+  }
+}

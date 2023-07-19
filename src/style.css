@@ -1,0 +1,122 @@
+.doc-header > a {
+  color: black;
+  border-bottom: 5px dotted #000;
+  text-decoration: none;
+}
+
+.poc-table {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.th-content {
+  display: flex;
+  flex-direction: row;
+}
+
+.th-content > .icon {
+  background-color: #f2f2f2;
+  cursor: pointer;
+  margin-left: 10px;
+  position: relative;
+  top: -2px;
+}
+
+#poc-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+}
+
+.popup-button {
+  background-color: white;
+  border-radius: 0;
+  border-style: none;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.summary-text {
+  user-select: none;
+}
+
+#paragraph-wrapper {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tooltip {
+  background: #0078bf;
+  color: white;
+  padding: 4px 8px;
+  font-size: 17px;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s ease, visibility 0s linear 0.15s;
+  font-weight: 300;
+}
+
+.arrow,
+.arrow::before {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: inherit;
+}
+
+.arrow {
+  visibility: hidden;
+}
+
+.arrow::before {
+  visibility: visible;
+  content: '';
+  transform: rotate(45deg);
+}
+
+.tooltip[data-popper-placement^='top'] > .arrow {
+  bottom: -4px;
+}
+
+.tooltip[data-popper-placement^='bottom'] > .arrow {
+  top: -4px;
+}
+
+.tooltip[data-popper-placement^='left'] > .arrow {
+  right: -4px;
+}
+
+.tooltip[data-popper-placement^='right'] > .arrow {
+  left: -4px;
+}
+
+.tooltip > strong {
+  font-weight: 400;
+}
+
+.tooltip[data-show] {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}

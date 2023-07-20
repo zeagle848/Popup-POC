@@ -8,7 +8,7 @@ To view the app locally you can begin by installing the dependencies...
 
 ...then build the app by running 
 
-`npm run buil`.
+`npm run build`
 
 ...and then start by running:
 

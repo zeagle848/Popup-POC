@@ -6,6 +6,10 @@ To view the app locally you can begin by installing the dependencies...
 
 `npm install`
 
+...then build the app by running 
+
+`npm run buil`.
+
 ...and then start by running:
 
 `npm run serve`.
